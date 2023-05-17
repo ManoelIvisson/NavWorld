@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font: italic 1em Arial;
+}
+
+header {
+    position: relative;
+    padding: 10px;
+    background-image: linear-gradient(to right, black, black, #8BCCE8, #8BCCE8, #8BCCE8);
+}
+
+header > h1 {
+    position: absolute;
+    display: inline;
+    left: 40%;
+    right: 40%;
+    top: 30%;
+    bottom: 30%;
+}
