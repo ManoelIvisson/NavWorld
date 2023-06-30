@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+header img {
+    width: 50px;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+nav a {
+    font-size: 10px;
+    padding: 5px;
+}
+
+div#pesquisa input{
+    width: 100px;
+}

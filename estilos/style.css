@@ -38,7 +38,7 @@ nav {
     justify-content: space-around;
     background-color: #68B4D4;
     height: 50px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
 }
 
 nav div {
@@ -47,7 +47,7 @@ nav div {
 }
 
 nav a {
-    padding: 10px 10px;
+    padding: 10px;
     color: black;
     font-weight: bold;
     text-decoration: none;
@@ -59,7 +59,7 @@ div#menu {
 }
 
 div#menu > a:hover, div#login > a:hover {
-    transition: 0.5s;
+    transition: 0.25s;
     color: white;
     background-color: var(--cor03);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
@@ -90,12 +90,12 @@ div#login {
 }
 
 main {
-    width: 900px;
+    max-width: 900px;
     height: 1000px;
     margin: auto;
 
     background-color: #8BCCE8;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5);
 }
 
 footer {
